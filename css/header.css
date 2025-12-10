@@ -1,5 +1,5 @@
 header {
-  background-color: var(--backgrond-tertiary-color);
+  background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,6 +11,10 @@ header {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
 }
 
 nav {
